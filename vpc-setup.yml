@@ -13,9 +13,9 @@
         state: "{{state}}"
         tags:
           - key: "dns_support"
-            value: yes
-          - key: "dns_hostnames"
-            value: yes
+            value: "yes"
+          - key: "dns_hostname"
+            value: "yes"
         tenancy: default
       register: vpcout
 
