@@ -17,4 +17,5 @@
           - key: "dns_hostnames"
             value: "yes"
         tenancy: default
+      state: "{{state}}"
       register: vpcout
