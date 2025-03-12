@@ -13,10 +13,10 @@
         state: "{{state}}"
         tags:
           - key: "dns_support"
-            value: "yes"
+            value: yes
           - key: "dns_hostnames"
-            value: "yes"
-      tenancy: default
+            value: yes
+        tenancy: default
       register: vpcout
 
 #    - debug:
