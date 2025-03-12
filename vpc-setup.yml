@@ -16,7 +16,7 @@
             value: "yes"
           - key: "dns_hostnames"
             value: "yes"
-        tenancy: default
+      tenancy: default
       register: vpcout
 
 #    - debug:
