@@ -8,8 +8,8 @@
     - name: create vprofile VPC
       ec2_vpc_net:
         name: "{{vpc_name}}"
-        cidr_block: "{{vpcCidr}}"
-        region: "{{region}}"
+        cidr_block: "{{ vpcCidr }}"
+        region: "{{ region }}"
         state: "{{state}}"
         tags:
           - key: dns_support
@@ -31,5 +31,5 @@
         cidr: "{{ PubSub1Cidr }}"
         map_public: yes
         resource_tags:
-          Name: vprofile-pubsub1
+          Name: "{{vprofile-pubsub1}}"
       register: pubsub1_out
