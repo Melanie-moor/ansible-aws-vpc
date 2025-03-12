@@ -12,9 +12,9 @@
         region: "{{region}}"
         state: "{{state}}"
         tags:
-          - key: "dns_support"
+          - key: dns_support
             value: yes
-          - key: "dns_hostnames"
+          - key: dns_hostnames
             value: yes
         tenancy: default
       register: vpcout
